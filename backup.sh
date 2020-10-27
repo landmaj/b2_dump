@@ -2,7 +2,7 @@
 
 set -e
 
-FILENAME="${DATABASE}_$(date "+%Y-%m-%dT%H:%M:%S").sql"
+FILENAME="${DATABASE}.sql"
 
 echo "${HOST}:${PORT}:${DATABASE}:${USER}:${PASSWORD}" > ~/.pgpass
 chmod 0600 ~/.pgpass
