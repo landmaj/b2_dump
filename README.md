@@ -17,3 +17,6 @@ Expected environmental variables:
  - API_KEY_ID
  - API_KEY
  - BUCKET
+
+#### OTHER
+ - BACKUP_NAME
